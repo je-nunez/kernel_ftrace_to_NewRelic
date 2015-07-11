@@ -22,7 +22,10 @@ set-ups the ftrace environment under
     /sys/kernel/debug/tracing/....
 
 does the tracing, and pipes the `ftrace` report to send to New Relic using
-this program.
+this program (possibly real-time measures from `trace_pipe` -but piping
+directly from it, since different `ftrace` tracers have different output
+formats, and from these formats, only some fields may be necessary to upload
+to New Relic).
 
 # WIP
 
