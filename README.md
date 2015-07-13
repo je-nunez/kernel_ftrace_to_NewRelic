@@ -60,8 +60,8 @@ The script expects its input to be of the form:
 
 where each pair is separated by spaces and consists of:
 
-   <metric_name>: a string with a valid New Relic metric name
-   <metric_value>: a float
+    metric_name: a string with a valid New Relic metric name
+    metric_value: a float
 
 Several pairs can be given in the same line (separated by spaces), or in
 multiple input lines (but a pair can not be split into consecutive lines,
