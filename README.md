@@ -14,7 +14,7 @@ for its `events` to enable, `set_events` masks, etc): see:
     https://www.kernel.org/doc/Documentation/trace/ftrace.txt
 
 so the best approach is not a wrapper as the wrapper in C in the above
-mentioned link, but a consumer of standard-input which will sends the measures
+mentioned link, but a consumer of standard-input which sends the measures
 it reads up to the New Relic collector, via the New Relic Python
 instrumentation. So the general process in which this program is called
 set-ups the ftrace environment under
